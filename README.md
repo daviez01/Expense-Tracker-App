@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Welcome to my second React project!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as a way for me to familiarize myself with React hooks, specifically useContext and useReducer.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The goal of this project was to create a simple Expense Tracker App using React hooks. The application allows users to add expenses and income. It displays the total expenses and incomes and also the balance. The use of hooks allows for a more streamlined and efficient codebase.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React
+* JavaScript
+* CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+The project is structured as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* index.js: The main entry point for the application.
+* App.js: The main component for the application.
+* context: A directory that contains the GlobalState.js and the AppReducer.js files.
+* GlobalState.js: A file that creates a global state and exports a provider and a consumer for that state.
+* AppReducer.js: A reducer file that handles the state changes for the Expense tracker app.
+* components: A directory that contains all of the child components for the application, including Header.js, Balance.js, Transaction.js, TransactionList.js, AddTransaction.js and IncomeExpense.js.
+* index.css: The CSS stylesheet for the application.
 
-### `npm run build`
+## What I Learned
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Through working on this project, I gained a strong understanding of React hooks, specifically useContext and useReducer. I learned about the benefits of using hooks, including the ability to manage state and avoid prop drilling. I also learned how to create and use contexts and reducers, which are powerful tools for managing state in larger applications.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Conclusion
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was a great way for me to continue building my skills with React and explore more advanced topics like hooks. I am excited to continue working with React and building more complex applications using these tools.
